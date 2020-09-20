@@ -1,0 +1,154 @@
+.page{
+    background-image: url(./img/main-image.png);
+    font-family:'Lato', sans-serif;
+    color: #ffffff;
+    height: 1440px;
+}
+
+.header{
+    height: 100px;   
+    padding-top: 15px; 
+}
+
+.header .cloud{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header .cloud .cloud-img{
+    background: transparent;
+    vertical-align: middle;
+}
+
+.header .cloud .cloud-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.header .navbar{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header .navbar .menu{
+    vertical-align: middle;
+}
+
+.header .navbar .menu .menu-item{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.header .language{
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+}
+
+.header .language-button{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.header .language-button .flag-icon{
+    border-radius: 14px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.header .language-button .lang-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.header .language-button .triangle-icon{
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.header .login-button{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    outline: none;
+    vertical-align: middle;
+}                                      
+
+.header .login-button .login-text{
+     font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    vertical-align: sub;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.title .title-text{
+    width: max-content;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.sub-title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sub-title .sub-title-text{
+    width: 492px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.action{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.action .sign-in-button{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color: #ED4C5C;
+}
