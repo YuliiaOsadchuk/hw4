@@ -1,5 +1,15 @@
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #ccc;
+}
+
 .page{
     background-image: url(./img/main-image.png);
+    background-size: contain;
     font-family:'Lato', sans-serif;
     color: #ffffff;
     height: 1440px;
@@ -94,7 +104,11 @@
     border-radius: 6px;
     outline: none;
     vertical-align: middle;
-}                                      
+}     
+
+.header .login-button:hover{
+    border: 2px solid lightblue;
+}
 
 .header .login-button .login-text{
      font-style: normal;
@@ -151,4 +165,8 @@
     outline: none;
     background-color: #ffffff;
     color: #ED4C5C;
+}
+
+.action .sign-in-button:hover{
+    border: 2px solid lightblue;
 }
